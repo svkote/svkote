@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(212, 212, 212);
+}
+
+
+tr {
+    border-color: #444444;
+}
+
+tr td {
+    border-color: #444444;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 5px;
+    width: 110px;
+    border-radius: 11px;
+    background-color: #e3ecd1;
+}
