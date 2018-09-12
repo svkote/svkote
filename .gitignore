@@ -5,6 +5,7 @@
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
+launch.json
 
 # Dump file
 *.stackdump
