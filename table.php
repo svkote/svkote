@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<a href="/svkote/">Назад</a>
 <h2>Вывод таблицы с помощью цикла while</h2>
+
 <?php
 $i = 1;
-echo "<table>";
-while ($i <= 10) {
-    echo "<tr>";
+echo "<table>\n";
+while ($i <= 20) {
+    echo "\t<tr>\n";
     $n = 1;
     while ($n <= 4) {
-        echo "<td> row $i | col $n </td>";
+        echo "\t\t<td> row $i | col $n </td>\n";
         $n++;
     }
-    echo "</tr>";
+    echo "\t</tr>\n";
     $i++;
 }
 echo "</table>";
