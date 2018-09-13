@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>php-Learn</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<a href="/svkote/">Назад</a>
+<?php require_once 'header.php';?>
+
 <h2>Список простых чисел от 1 до 200</h2>
 <p>Просто́е число́ (др.-греч. πρώτος ἀριθμός) —
     натуральное (целое положительное) число, 
@@ -17,6 +8,7 @@
     Другими словами, число x является простым, 
     если оно больше 1 и при этом делится без остатка 
     только на 1 и на x.</p> <br>
+
 
 <?php
 
@@ -43,5 +35,4 @@ for ($i=0; $i <= 200 ; $i++) {
 
 ?>
 
-</body>
-</html>
+<?php require_once 'footer.php';?>
