@@ -19,3 +19,15 @@ tr td {
     border-radius: 11px;
     background-color: #e3ecd1;
 }
+
+a {
+    text-decoration: none;
+    color: #4d6157;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4b8467;
+    font-weight: bold;
+}
